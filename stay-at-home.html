@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSBattle 10-49 Stay At Home</title>
+</head>
+<!-- CSS Battle 10/1/22 , 100% match in 46m 53s -->
+<body>
+    <div class="patch-left">
+        <div class="house"></div>
+         <div class="roof"></div>
+         <div class="patch"></div>
+       <div class="door"></div>
+       <div class="window"></div>
+     </div>
+   <style>
+     body {
+       background: #6592cf
+     }
+     .house {
+       position: absolute;
+       width: 150px;
+       height: 120px;
+       background: #243D83;
+       left: 117px;
+       top: 110px;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+       z-index: 20;
+     }
+     .roof {
+       position: absolute;
+       width: 150px;
+       height: 150px;
+       background: #243D83;
+       rotate: 45deg;
+       top: 61px; 
+       left: 117px;
+       z-index: 0;
+     }
+     .patch-left {
+       position:absolute;
+       background:#6592CF;
+       width: 150%;
+       height: 100px;
+       top: 20px;
+       rotate: 0deg;
+       z-index: 1;    
+     }
+      .patch {
+       position:absolute;
+       background: #6592CF;
+       width: 150%;
+       height: 120px;
+       top: 130px;
+       rotate: 0deg;
+       z-index: 1;    
+     }
+     .door {
+       position: absolute;
+       width: 50px;
+       height: 50px;
+       background: #EEB850;
+       left: 167px;
+       top: 180px;
+       z-index: 50;   
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+     }
+     .window {
+       position: absolute;
+       width: 100px;
+       height: 10px;
+       background: #EEB850;
+       left: 142px;
+       top: 125px;
+       z-index: 50;   
+       border-radius: 10px;
+       
+     }
+   </style>
+   
+</body>
+</html>
